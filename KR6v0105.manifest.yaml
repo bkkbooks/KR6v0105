@@ -1,0 +1,70 @@
+canonical_identifier: bkk:krp/KR6v0105/v1
+canonical_location: https://kanripo.org/bkk/KR6v0105/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 三自性論
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/ZW/ZW10/ZW10n0078.xml
+    old_id: ZW10n0078
+  edition:
+    short: bkk
+editions:
+- short: 藏外
+  label: 藏外
+  source_xml_id: wit.orig
+- short: ZW
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0105_000.yaml, hash: 'sha256:d9acd81240ac29d4a2afa82c3d4ff75b4a9536f3a3196802d86b66e3f6259c43'}
+  - {seq: 1, filename: KR6v0105_001.yaml, hash: 'sha256:13d2073e42a2fd897aef5654ed7307d346d073cd565838fa3796775c1bd7b5f8'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0105_000.markers.yaml, hash: 'sha256:3c5de795139fdb0cd896391682f4838fea42a79084a9947e86eabecb4ce5dd9f'}
+  - {seq: 1, role: markers, filename: assets/KR6v0105_001.markers.yaml, hash: 'sha256:95cb58b1e51b5a57e1d96070a981473f50f604db68976b75d4cdc3e8c237b746'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6v0105_ZW_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 題解
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6v0105_ZW_000-mulu-2
+    span:
+    - front
+    - 337
+    - 337
+  label: 譯文
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0105_ZW_001-juan-start
+    span:
+    - body
+    - 0
+    - 2886
+  label: 三自性論
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0105_ZW_001-mulu-1
+    span:
+    - body
+    - 862
+    - 862
+  label: 譯者附記
+  type: mulu
+  level: 1
+hash: sha256:a6c3fd85c376783259f2156d5826829e758d5c4ad5f979e9b811ea4ba0f62dba
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

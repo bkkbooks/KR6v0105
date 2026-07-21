@@ -19,17 +19,17 @@ metadata:
     short: ZW
 assets:
   parts:
-  - {seq: 0, filename: KR6v0105_000-ZW.yaml, hash: 'sha256:1414b46346d27b2b529383a1f43610413cf174d9828206a1858313ee5a25e4d7'}
+  - {seq: 0, filename: KR6v0105_000-ZW.yaml, hash: 'sha256:c981e4d611f885e8f0a4e827be9085a465515f9880e7456ec924d8d5311b357a'}
   - {seq: 1, filename: KR6v0105_001-ZW.yaml, hash: 'sha256:cfef953398abe904d01cf1f094f382552fea336caa94c6c57c2239b4e2452a88'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6v0105_000-ZW.markers.yaml, hash: 'sha256:bc0604b35302dfefd40ce8b5980f438123f5ddb188778bcbe41370ad369d2325'}
+  - {seq: 0, role: markers, filename: assets/KR6v0105_000-ZW.markers.yaml, hash: 'sha256:a7bdfb13ddfe1098acd376f0afb7eb7c94eaac0bc3895b0db152cb0e06a9fe8d'}
   - {seq: 1, role: markers, filename: assets/KR6v0105_001-ZW.markers.yaml, hash: 'sha256:e744e447da0e634d55a6b4b25e90fbe843cc5206aa750b9c2aebb85d4f3b35a2'}
 table_of_contents:
 - ref:
     seq: 0
     marker_id: KR6v0105_ZW_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: 題解
@@ -39,7 +39,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6v0105_ZW_000-mulu-2
     span:
-    - front
+    - body
     - 337
     - 337
   label: 譯文
@@ -65,4 +65,4 @@ table_of_contents:
   label: 譯者附記
   type: mulu
   level: 1
-hash: sha256:2675569a245d8ffa8088c7174c1510fb397d4d331b925cebf6225e88c63eee7b
+hash: sha256:5d9cdb5ceea6bd44f3a951540ba6e3deaae496fd034224c297f8a6eff8aa6e26
